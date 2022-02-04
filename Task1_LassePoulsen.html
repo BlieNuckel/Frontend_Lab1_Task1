@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 1 - Grade 3 | Lasse Poulsen</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:wght@100;200;300;400;500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        html {
+            width: 100vw;
+            overflow-x: hidden;
+        }
+
+        body {
+            padding: 2%;
+        }
+
+        body * {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+        }
+
+        main {
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: center;
+        }
+
+        .intro {
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: center;
+        }
+
+        h1,
+        h3 {
+            text-align: center;
+            margin: 10px 0;
+        }
+
+        .portrait {
+            width: 400px;
+            background-color: rgb(238, 126, 139);
+            border-radius: 50px;
+            margin-bottom: 50px;
+        }
+
+        .table-card {
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: center;
+            width: 60%;
+            padding: 50px;
+            background-image: url("https://svgur.com/i/dv8.svg");
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+        }
+
+        th {
+            font-weight: 500;
+        }
+
+        td,
+        th {
+            border-bottom: 2px solid rgb(0, 0, 0);
+            border-right: 2px solid rgb(0, 0, 0);
+            text-align: center;
+        }
+
+        tr:last-child>* {
+            border-bottom: none;
+        }
+
+        td:last-child,
+        th:last-child {
+            border-right: none;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <section class="intro">
+            <h1 style="font-size: 40pt;">Hello, I'm good looking <span
+                    style="font-weight: 900; color: rgb(238, 126, 139);">Lasse</span>!</h1>
+            <h3>I can't wait to tell you all about how good I look</h3>
+            <img class="portrait" src="https://avatars.dicebear.com/api/big-smile/BitchBoi.svg" alt="portrait-img">
+        </section>
+        <div class="table-card">
+            <p style="font-weight: 600;">Personal Media Biography</p>
+            <table style="table-layout: fixed; width: 100%;" cellspacing="0" cellpadding="5">
+                <tbody>
+                    <tr>
+                        <th>Soundfile Name</th>
+                        <th>Description</th>
+                        <th>Embedded MP3 file</th>
+                    </tr>
+                    <tr>
+                        <td>Road Work Ahead</td>
+                        <td>Just a funny audio clip from a funny online guy.</td>
+                        <td><iframe
+                                src="https://drive.google.com/file/d/1nyTbrIKfiyGimqnbZw_fZS93ROc2XcCB/preview?usp=sharing"
+                                frameborder="0"></iframe></td>
+                    </tr>
+                    <tr>
+                        <td>Michael Reeves being a psychopath</td>
+                        <td>A short audio clip of one of my favorite youtubers who does development and engineering.
+                            He's a big part of why I got fascinated by development in the first place.</td>
+                        <td><iframe
+                                src="https://drive.google.com/file/d/1nwW9sEpsYioIqfTKRCxsSuAqfdLPgB2c/preview?usp=sharing"
+                                frameborder="0"></iframe></td>
+                    </tr>
+                    <tr>
+                        <td>Unkown Title</td>
+                        <td>A secret audio file found hidden in the plains of the Russion tundra. According to legend it
+                            is the only official evidence, proving once and for all that I am in fact hot.</td>
+                        <td><iframe
+                                src="https://drive.google.com/file/d/1nxz5iwPaLbfZARRTshgwS3RjuBoLIUlt/preview?usp=sharing"
+                                frameborder="0"></iframe></td>
+                    </tr>
+                    <tr>
+                        <th>Image Name</th>
+                        <th>Description</th>
+                        <th>Embedded Image File</th>
+                    </tr>
+                    <tr>
+                        <td>Small Chicken</td>
+                        <td>A small chicken that my mom got me last Easter. He sits on my desk and I often time use him
+                            as a rubberducky to help me through my struggles when I code. I've spent many a nights
+                            talking to this chicken and no one else.</td>
+                        <td><img style="width: 50%"
+                                src="https://lh3.googleusercontent.com/pw/AM-JKLUQCgWFU3K1TPjeLvTiwa08XCcIxG08RJ2VvrIG8EBhuu6mBovfy5Lbb1LuV3duv2cMmwatgkoCc6YcsGb4sVYWhseZCP46TRJ80kKoskE2ia-sAxlEnC-RzMFZr_4c77PbrbJCD73oprHPr6OPKWfY=w704-h937-no?authuser=0"
+                                alt="small-chicken"></td>
+                    </tr>
+                    <tr>
+                        <td>Energy Juice</td>
+                        <td>The only thing that's gotten me through some of the projects I've worked on. That and my own
+                            horrible stubbornness to figure out a solution to problems I run into.</td>
+                        <td><img style="width: 50%"
+                                src="https://d2dyh47stel7w4.cloudfront.net/Pictures/480xAny/1/4/7/226147_monsternpd_533240.png"
+                                alt="monster-energy-drinks"></td>
+                    </tr>
+                    <tr>
+                        <td>Cat</td>
+                        <td>An adorable picture of my girlfriend's absolutely adorable cat. I love animals and I can't
+                            wait to have my own cute cat.</td>
+                        <td><img style="width: 50%"
+                                src="https://lh3.googleusercontent.com/2vY0z7HQLsPfpe6FbZYuSfzF655d1lpBzA34JFW_Psq0Wv2kZK1NnBaOe1fn_BIBQiHY4sdJOPu0-bqkzkSCik6YbMulTdQz-2nW4KfIzn5KBRjSxbpuZDzfdjczDace4XLAC3AmRr9m7ZArHI7imrQvEESrHbFB64iZp7-TB9WFEyZ4fsmAJFrKPyNz3FFqvxgaicPynlkmnBUdS-PRCp7K3FtuZgAfaYoe2Oesdx3sEOkFHGvPhN9g7eMoIrlGcdwBhepXTch2BcHVhncOjcHILoQfVJJot313rUPypKOw_ZuGDOpuRV2NWou57Iasmvxmps7bq8d6UGrwGGYz3UJA8j8FkENFg9sAf50m53RWD81niDpMhewIlmzEKfyVYU4fQ7tgSaHhjHSSXNfw1yRbo5mxD0eknrmGu1gFAhmaZEqcz5OsWyun3LKiqV7sJ80BUcPWtOKi0hTjJs8JOQJMASeoFcXKAqWCapeuwQUghtXw4hoGr4tcLjqeloNB1wGHBjKN5MRPgkyHHF9rR3sS6hNjSeVH6WR1kfspFBSnODYdPFHxUiDw_qDNmt9XNRYFQ0nVOOElyb-XMyj-xC3wfECRAm8JP9wdzu-OAX_xLBMFCZFRNV8FGafxhkXZvSDPbyyoykIuFioLsuO2Gx_dsSI-boo-3YYsO6pXg81l9nmgGAx6oRbhQQ7EZw6GYK1P1xDnqIoe9CCJTf6ZLl0=w704-h937-no?authuser=0"
+                                alt="cute-cat"></td>
+                    </tr>
+                    <tr>
+                        <th>Video Name</th>
+                        <th>Description</th>
+                        <th>Embedded Image File</th>
+                    </tr>
+                    <tr>
+                        <td>NerdCubed</td>
+                        <td>A youtube I spent most of my life watching play random video games. Besides great
+                            entertainment he also embarked on a journey to develop video games when I was around 13.
+                            Being a big fan and a child I almost immediately decided that I would do the same and
+                            turn my love for video games into my future career. I even started developing a few small
+                            games and learned how to code a tiny bit.</td>
+                        <td><iframe width="100%" height="200px" src="https://www.youtube-nocookie.com/embed/KgfI3I0unG8"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe></td>
+                    </tr>
+                    <tr>
+                        <td>Cooking Showdown</td>
+                        <td>A lot of my fun comes from watching youtube videos. This is probably one of my favorite
+                            videos, it just cracks me up.</td>
+                        <td><iframe width="100%" height="200px" src="https://www.youtube-nocookie.com/embed/_P6YOzYhlmA"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe></td>
+                    </tr>
+                    <tr>
+                        <td>Mirror's Edge</td>
+                        <td>My favorite ever video game played by my (then) favorite youtuber. I have played this game
+                            from start to finish more times than I can count and it makes me feel so nostalgic of my
+                            childhood.</td>
+                        <td><iframe width="100%" height="200px" src="https://www.youtube-nocookie.com/embed/cOL1p2FK_-A"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <h2 style="margin-top: 50px; text-decoration: underline; text-align: center;">Summary</h2>
+        <p style="width: 60%; text-align: center;">The media in the table above probable sums me up pretty well as a
+            person. Most of my life
+            I've been aiming
+            towards a career in some sort of development, changing from game development to now doing software
+            development. Besides that I'm not exactly super extraordinary, I just like funny and cute things like most
+            other people. Also I'm thankful for my family who's always supported me. Oh
+            and I'm hot, of course.</p>
+    </main>
+</body>
+
+</html>
